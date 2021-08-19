@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>ToDo List</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="HandheldFriendly" content="true">
+        <link rel="stylesheet" href="todo.css"/>
+    </head>
+    <body>
+        <div class="header">
+            <div>
+                <center><h1>My ToDo List</h1></center>
+            </div>
+            <div class="bar">
+                <div class="pbars">
+                    <t class="fin">------------</t><t style="color: #fa064f; "> Finished</t> <br>
+                </div>
+                <div class="pbars">
+                    <t class="unfin">------------</t><t style="color: white; "> Unfinished</t> <br>
+                </div>
+                <div class="pbars">
+                    <t class="inprog">------------</t><t style="color: rgb(54, 199, 54);"> In-Progress</t>
+                </div>
+            </div>
+        </div>
+        
+        <div class="addTodo">
+            <span>
+            <input class="todotext" type="text" id="todoInput" maxlength="20" placeholder=" Enter Things to be done and select due date..."></input>
+            <input  class="duedate" type="date" id="tododate" style="filter: invert(0.9);" />
+            <button class="btn addbtn" id="addButton">Add</button>
+            <button class="btn delbtn" id="delAll">Clear All</button>
+            </span>
+        </div>
+        <hr style="margin-bottom: 15px;">
+        <div class="list" id="toDoList">
+            
+        </div>
+
+        <script src="todo.js"></script>
+    </body>
+</html>   

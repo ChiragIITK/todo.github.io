@@ -1,0 +1,169 @@
+body{
+    background-color:#1A1A1D ;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #C3073F;
+    margin-right: 10px;
+    text-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px whitesmoke;
+}
+
+h1:hover{
+    transition-duration: 0.4s;
+    transform: scale(1.1);
+}
+
+.bar{
+    font-size: 10px;
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 150px;
+}
+.pbars{
+    margin-bottom: 5px;
+}
+.fin{
+    border: 1px solid #fa064f;
+    color: #fa064f;
+    background-color: #fa064f;
+    margin: 5px;
+    border-radius: 2px;
+}
+.unfin{
+    border: 1px solid #fa064f;
+    color: #1A1A1D;
+    background-color: #1A1A1D;
+    margin: 5px;
+    border-radius: 2px;
+}
+.inprog{
+    border: 1px solid rgb(54, 199, 54);
+    color: rgb(54, 199, 54);
+    background-color: rgb(54, 199, 54);
+    margin: 5px;
+    border-radius: 2px;
+}
+
+
+.addtodo{
+    clear: both;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.todotext{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:#1A1A1D;
+    color: white;
+    width: 349px;
+    margin-top: 10px;
+    margin-left: 5px;
+    border:2px solid #C3073F;
+    border-radius: 4px;
+    height: 40px;
+}
+.duedate{
+    font-family:Arial, Helvetica, sans-serif;
+    width: 130px;
+    background-color:#1A1A1D;
+    color: white;
+    margin-top: 10px;
+    margin-left: 5px;
+    border:2px solid #C3073F;
+    border-radius: 4px;
+    height: 40px;
+}
+
+.btn{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    background-color:#C3073F;
+    display: inline-block;
+    border-radius: 4px;
+    border: 1px solid #950740;
+    margin-left: 5px;
+    margin-top: 10px;
+    transition-duration: 0.4s;
+    width: 100px;
+    height: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.btn:hover {
+    background-color: #fa064f;
+    color: white;
+}
+
+.liststyle{
+    background-color: #1A1A1D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.todomain{
+    display: inline;
+    background-color: #1A1A1D;
+    border: 2px solid #C3073F ;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.todomain:hover{
+    background-color: #666666;
+    border: 3px solid whitesmoke;
+}
+
+.todofn{
+    cursor: pointer;
+    float: right;
+    margin: 3px;
+    display: inline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    background-color: #1A1A1D;
+}  
+.todostyle{
+    float: left;
+    margin:5px;
+}
+
+.taskstyle{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+.datestyle{
+    color: lightgrey;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    margin-left: 10px;
+    margin-top: 6px;
+    font-weight: lighter;
+}
+
+.buttonstyle{
+    background-color: #FFCC66;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 3px;
+    font-weight: bold;
+}
+
+.markAsProg{
+    background-color: rgb(54, 199, 54);
+}
+
+.markAsDone{
+    background-color: #fa064f;
+}
+
